@@ -1,7 +1,7 @@
 # DJANGO TASK FORCE PROJECT (DTF)
 
 ## DTF Project Group Assignment for Bootcamp-13
-In this project we shall be demostrating to students how to go about Django Installations, Use of some modules in Django eg PostgressSQL, RESTAPi etc to the class
+In this project, we shall be demonstrating to students how to go about Django Installations, Use of some modules in Django eg PostgreSQL, RESTAPi, etc to the class
 # Pre-Installations
 - Create a for your project
 - git clone repo
@@ -16,11 +16,16 @@ In this project we shall be demostrating to students how to go about Django Inst
     - Creating a Course (_http://127.0.0.1:8000/new_course/_)
         - use format __{"courseName":"Python"}__ and POST
     - Adding New Student (_http://127.0.0.1:8000/new_student/_)
-    - LIst of all studnets (_http://127.0.0.1:8000/all_students/_)
+    - List of all students (_http://127.0.0.1:8000/all_students/_)
     - Update Student (_http://127.0.0.1:8000/update_student/id_)
     - Delete Student (_http://127.0.0.1:8000/delete_student/id_)
-## Screen shots of API
-![Alt text](C:\Users\dell\Pictures\Screenshots\Screenshot (173).png)
+## Screen-shots of API
+1. All Students Display
+ ![all student](https://github.com/Kitemaggwa-Shafic/django_task_force/assets/54108967/e33c0631-a1d0-4af4-9934-d50023f26264)
+
+2. New Student
+![New student](https://github.com/Kitemaggwa-Shafic/django_task_force/assets/54108967/33a5488c-1422-40c8-bce6-632d1ecb3374)
+
 
 ## Group Team Members:
 1. Oliver Balyama
