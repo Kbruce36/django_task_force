@@ -1,15 +1,18 @@
 # DJANGO TASK FORCE PROJECT (DTF)
 
 ## DTF Project Group Assignment for Bootcamp-13
-In this project, we shall be demonstrating to students how to go about Django Installations, Use of some modules in Django eg PostgreSQL, RESTAPi, etc to the class
+In this project, we shall be demonstrating to students how to go about Django Installations, Use of some modules in Django eg PostgreSQL, RESTAPi, etc to the class.
+
 # Pre-Installations
-- Create a for your project
-- git clone repo
-- Install _psycopg2_ using __pip install psycopg2__
-- Server configuration
+1. Create a folder for your project
+2. git clone repo
+3. Install dependencies;
+    - Install _psycopg2_ using __pip install psycopg2__
+4. Server configuration
     - configure server _setting_ to your own DB settings.
-- Make _python migrations_ for the DB
-- Install REST framework module using __pip install      djangorestframewrok__
+5. Make _python migrations_ for the DB
+6. Install REST framework module using __pip install djangorestframework__
+
 ## Using the REST API
 1. This API has two models, course and student
 2. Configured locally to run at _http://127.0.0.1:8000_
@@ -19,6 +22,7 @@ In this project, we shall be demonstrating to students how to go about Django In
     - List of all students (_http://127.0.0.1:8000/all_students/_)
     - Update Student (_http://127.0.0.1:8000/update_student/id_)
     - Delete Student (_http://127.0.0.1:8000/delete_student/id_)
+
 ## Screen-shots of API
 1. All Students Display
  ![all student](https://github.com/Kitemaggwa-Shafic/django_task_force/assets/54108967/e33c0631-a1d0-4af4-9934-d50023f26264)
